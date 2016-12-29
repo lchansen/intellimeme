@@ -4,6 +4,7 @@
   "description": "A tweeter meme recommender thing",
   "main": "bot.js",
   "scripts": {
+    "start":"source ./twitter.conf; node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
